@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QDTAS-Careers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!-- Owl Carousel-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Owl Carousel-->
+
+    <!-- font awesome link for social media icons -->
+    <script src="https://kit.fontawesome.com/ca29f6d11a.js" crossorigin="anonymous"></script>
+
+    <!-- particle jquery -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <style>
+        .f-lbl {
+            font-size: large;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+    <!-- header-->
+    <div class="container-fluid py-5">
+        <header class="header" id="header">
+            <nav class="navbar container">
+                <section class="navbar__left">
+                    <div class="burger" id="burger">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </div>
+                    <a class="navbar-brand" href="index.html">
+                        <div class="brand">
+                            <img class="brand-img" src="assets/resource/icons/company-log.png">
+                            <div class="brand-text">
+                                <p class="brand-name">QDTAS</p>
+                                <p class="subtitle-head">Shaping the future</p>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+                <section class="navbar__center">
+                    <span class="overlay"></span>
+                    <div class="menu" id="menu">
+                        <div class="menu__header">
+                            <span class="menu__arrow"><i class="bx bx-chevron-left"></i></span>
+                            <span class="menu__title"></span>
+                        </div>
+                        <ul class="menu__inner">
+                            <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+                            <li class="menu__item menu__dropdown">
+                                <a href="#" class="menu__link">
+                                    Services
+                                    <i class="bx bx-chevron-right"></i>
+                                </a>
+                                <div class="submenu megamenu__text">
+                                    <div class="submenu__inner">
+                                        <h4 class="submenu__title"></h4>
+                                        <ul class="submenu__list">
+                                            <li><a href="software_devlopment.html">Software Devlopment</a></li>
+                                            <li><a href="mobile _app_devlopment.html">Mobile App Development</a></li>
+                                            <li><a href="web_devlopment.html">Web Development</a></li>
+                                            <li><a href="qa.html">QA Services</a></li>
+                                            <li><a href="IT Services.html">IT Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu__item"><a href="careers.html" class="menu__link">Careers</a></li>
+                            <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </header>
+    </div>
+    <!-- header -->
+
+    <div class="container-fluid form-container">
+        <div class="careers-form">
+            <form action="https://usebasin.com/f/c4aa3c0b955a" class="car_form" method="post">
+                <h2 class="fw-bold heading text-capitalize text-white">Join Our Team </h2>
+                <p class="text-white head_slogan">Unlock Your Potential, Code Your Career at <b>QDTAS !</b></p>
+                <label for="name" class="text-white f-lbl">Name:</label><br>
+                <input class="input" type="text" id="name" name="name" required><br>
+
+                <label for="email" class="text-white f-lbl">Email:</label><br>
+                <input class="input" type="email" id="email" name="email" required><br>
+
+                <label for="position" class="text-white f-lbl">Position of Interest:</label><br>
+                <select class="input" id="position" name="position" required>
+                    <option value="aws" selected>--------Select Position--------</option>
+                    <option value="aws">AWS Engineer</option>
+                    <option value="dads">Data Analyst/Data Scientist</option>
+                    <option value="devop">DevOps Engineer</option>
+                    <option value="fed">Front-End Developer</option>
+                    <option value="fsd">Full-Stack Developer</option>
+                    <option value="qa">Software Test Engineer/QA</option>
+                </select><br>
+
+                <label for="resume" class="text-white f-lbl">Upload Resume:</label><br>
+                <input class="text-white" type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br>
+
+                <label for="message" class="text-white f-lbl">Additional Message:</label><br>
+                <textarea class="input" id="message" name="message" rows="4"></textarea><br>
+
+                <input class="btn btn-success sub-btn" style="margin-top: 4%;" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="j-quote">
+            <blockquote>
+                <p><i>"Great things in business are never done by one person. They're done by a team of people."</i></p>
+                <footer><b>— Steve Jobs</b></footer>
+                <span>Co-founder of Apple Inc.</span>
+            </blockquote>
+        </div>
+
+    </div>
+
+    <!-- Chat button start-->
+    <div>
+        <img id="openFormBtn" src="assets/resource/icons/how_help.png" alt="Chat Image">
+    </div>
+    <div class="popup-form-container" id="popupForm">
+        <div class="popup-form">
+            <span class="close" id="closeFormBtn">&times;</span>
+            <h4>How Can I Help?</h4>
+            <form action="#" class="ct-form" method="post" id="helpForm">
+                <label for="email">Email:</label>
+                <input class="inputs" type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea class="inputs" id="message" name="message" rows="2" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- Chat button end-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="pt-0 pb-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2 ">
+                        <div class="footer-widget-three ">
+                            <div class="footer-widget-heading">
+                                <h3>Get In Touch</h3>
+                            </div>
+                            <div class="footer-text mb-0">
+                                <li class="list-group-item item-one"><img src="assets/resource/icons/Location.png"
+                                        alt=" Location" class="LocationLogo " width="30">
+                                    <p class="detailAdd text-white">The Stellar Business Complex,<br> near Poona
+                                        Bakery,
+                                        Wakad, Pune - 411057</p>
+                                </li>
+                                <li class="list-group-item item-two"><img src="assets/resource/icons/contact-num.png"
+                                        alt=" Mobile" class="MobileLogo align-top" width="30">
+                                    <p class="detailphone text-white">9022159397 / 9356660761</p>
+                                </li>
+                                <li class="list-group-item item-three"><img src="assets/resource/icons/Email.png"
+                                        alt=" Email" class="EmailLogo align-top" width="35">
+                                    <p class="detailmail text-white">services@qdtas.com</p>
+                                </li>
+                                <li class="list-group-item item-three">
+                                    <a class="btn btn-warning btnmap text-white Map-button" target="_blank"
+                                        href="https://maps.app.goo.gl/w43EWS9dHYPT5JQB6">Find us on map</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-2 ">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Get To Know Us</h3>
+                            </div>
+                            <ul>
+                                <li><a href="software_devlopment.html">Software Devlopment</a></li>
+                                <li><a href="qa.html">QA Services</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                        <div class="footerlogo">
+                            <div class="brand-footer">
+                                <img class="brand-img" src="assets/resource/icons/logo-white.png">
+                                <div class="brand-text">
+                                    <p class="brand-name text-white">QDTAS</p>
+                                    <p class="subtitle-head text-white">Shaping the future</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="socialiconlogo">
+                            <a href="#"><i class="fa-brands fa-facebook-f"
+                                    style="color: white; font-size: 1.5rem; padding:0;margin: 10px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"
+                                    style="color: white; font-size: 1.5rem; padding:0;margin: 10px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"
+                                    style="color: white; font-size: 1.5rem; padding:0;margin: 10px;"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"
+                                    style="color: white; font-size: 1.5rem; padding:0;margin: 10px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 text-left text-lg-left">
+                        <div class="copyright-text">
+                            <p>&copy; 2023 QDTAS Technology LLP.All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right text-lg-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Terms condition</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/OWL.js"></script>
+</body>
+
+</html>
